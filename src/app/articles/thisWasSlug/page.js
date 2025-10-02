@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import Image from 'next/image';
@@ -22,7 +20,6 @@ export default function ArticlePage() {
         reverse={false} // Меняет порядок блоков на md+ true - текст слева картинка справа, false - наоборот
       />
 
-      
 
       <section className="bg-white pt-20 pb-24 px-4">
         <p className="mb-5 font-bold text-[18px] md:text-[21px] max-w-screen-md mx-auto">
@@ -158,3 +155,13 @@ export default function ArticlePage() {
     </div>
   );
 }
+
+
+// export async function generateStaticParams() {
+//   // Example: fetch list of article slugs from an API or local data source
+//   const articles = await fetch('https://example.com/api/articles').then(res => res.json());
+
+//   return articles.map(article => ({
+//     slug: article.slug,
+//   }));
+// }
