@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CardGrid from "../components/CardGrid";
 import ArticleMainBlock from "../components/ArticleMainBlock";
+import { Image_URL } from "../imageURLdeploy";
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
 
         <Image
           className="mb-[100px] w-full md:max-w-[720px] mx-auto"
-          src="/nas.png"
+          src={Image_URL+"/nas.png"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -84,7 +85,7 @@ export default function Home() {
 
         <Image
           className="mb-[82px] w-full"
-          src="/nas.jpeg"
+          src={Image_URL+"/nas.jpeg"}
           alt="Описание изображения"
           width={1920}
           height={720}

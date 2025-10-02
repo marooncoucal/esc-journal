@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CardGrid from "../components/CardGrid";
 import ArticleMainBlock from "../components/ArticleMainBlock";
+import { Image_URL } from "../imageURLdeploy";
 
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
 
         <Image
           className="mb-[100px] w-full md:max-w-[720px] mx-auto"
-          src="/IMG_9094.JPG"
+          src={Image_URL+"/IMG_9094.JPG"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -53,7 +54,7 @@ export default function Home() {
 
         <Image
           className="mb-[82px] w-full"
-          src="/IMG_6460.JPG"
+          src={Image_URL+"/IMG_6460.JPG"}
           alt="Описание изображения"
           width={1920}
           height={720}
@@ -70,7 +71,7 @@ export default function Home() {
 
         <Image
           className="mb-[100px] w-full md:max-w-[720px] mx-auto"
-          src="/IMG_8388.JPG"
+          src={Image_URL+"/IMG_8388.JPG"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -90,7 +91,7 @@ export default function Home() {
 
         <Image
           className="mb-[82px] w-full md:max-w-[720px] mx-auto"
-          src="/IMG_8116.JPG"
+          src={Image_URL+"/IMG_8116.JPG"}
           alt="Описание изображения"
           width={720}
           height={720}

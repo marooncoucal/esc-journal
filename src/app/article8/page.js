@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CardGrid from "../components/CardGrid";
 import ArticleMainBlock from "../components/ArticleMainBlock";
+import { Image_URL } from "../imageURLdeploy";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
 
         <Image
           className="w-full mt-12 md:mt-16"
-          src="/ame_4.png"
+          src={Image_URL+"/ame_4.png"}
           alt="Описание изображения"
           width={1920}
           height={720}
@@ -116,7 +117,7 @@ export default function Home() {
 
         <Image
           className="w-full mt-12 md:mt-16"
-          src="/ame_8.png"
+          src={Image_URL+"/ame_8.png"}
           alt="Описание изображения"
           width={1920}
           height={720}

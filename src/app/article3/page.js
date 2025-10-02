@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ArticleMainBlock from "../components/ArticleMainBlock";
 import CardGrid from "../components/CardGrid";
+import { Image_URL } from "../imageURLdeploy";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
   {/* Изображение без отступов */}
   <Image
     className="w-full"
-    src="/ameli_2.png"
+    src={Image_URL+"/ameli_2.png"}
     alt="Описание изображения"
     width={1920}
     height={720}
@@ -106,7 +107,7 @@ export default function Home() {
   {/* Полноэкранное изображение */}
   <Image
     className="w-full mt-0"
-    src="/ameli_7.png"
+    src={Image_URL+"/ameli_7.png"}
     alt="Описание изображения"
     width={1920}
     height={720}

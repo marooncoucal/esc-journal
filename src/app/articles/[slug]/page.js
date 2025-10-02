@@ -5,6 +5,7 @@
 import Image from 'next/image';
 import CardGrid from '@/app/components/CardGrid';
 import ArticleMainBlock from '@/app/components/ArticleMainBlock';
+import { Image_URL } from '@/app/imageURLdeploy';
 
 
 export default function ArticlePage() {
@@ -34,7 +35,7 @@ export default function ArticlePage() {
 
         <Image
           className="mb-[82px] w-full md:max-w-[720px] mx-auto"
-          src="/martin_2.png"
+          src={Image_URL+"/martin_2.png"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -58,7 +59,7 @@ export default function ArticlePage() {
 
         <Image
           className="mb-[82px] w-full"
-          src="/martin_3.png"
+          src={Image_URL+"/martin_3.png"}
           alt="Описание изображения"
           width={1920}
           height={720}
@@ -74,7 +75,7 @@ export default function ArticlePage() {
 
         <Image
           className="mb-[82px] w-full md:max-w-[720px] mx-auto"
-          src="/martin_4.png"
+          src={Image_URL+"/martin_4.png"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -90,7 +91,7 @@ export default function ArticlePage() {
 
         <Image
           className="mb-[82px] w-full md:max-w-[720px] mx-auto"
-          src="/martin_5.png"
+          src={Image_URL+"/martin_5.png"}
           alt="Описание изображения"
           width={720}
           height={720}
@@ -116,7 +117,7 @@ export default function ArticlePage() {
 
         <Image
           className="mb-[82px] w-full md:max-w-[720px] mx-auto"
-          src="/martin_6.png"
+          src={Image_URL+"/martin_6.png"}
           alt="Описание изображения"
           width={720}
           height={720}
