@@ -1,6 +1,6 @@
 // https://github.com/gregrickaby/nextjs-github-pages
 // this whole file is for this instruction
-// also added .nojekyll to public
+
 // .
 // ├── app/
 // ├── public/
