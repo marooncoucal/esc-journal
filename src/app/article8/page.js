@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-white overflow-x-hidden">
       
         <ArticleMainBlock
-     image="/ame_1.png" // пикча 
+     image={Image_URL+"/ame_1.png"} // пикча 
      bgColor="pink"  // цвет фона всего блока pink yellow violet green black
      textColor="white" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
      title="В ПОИСКАХ ИСКРЕННОСТИ: ПУТЕШЕСТВИЕ ФОТОГРАФА" //лид статьи

@@ -1,6 +1,7 @@
 import ArticlePreview from "../components/ArticlePreview";
 import CardGrid from "../components/CardGrid";
 import MainPages from "../components/Main_Pages";
+import { Image_URL } from "../imageURLdeploy";
 
 
 
@@ -9,12 +10,12 @@ export default function Home() {
   return (
     <div>
        <MainPages
-  backgroundImage="/uspex_ili_proval_main.png"
+  backgroundImage={Image_URL+"/uspex_ili_proval_main.png"}
   title="НЕРАСКРЫТЫЕ ТАЛАНТЫ"
   description="Серия интервью о том, как люди, не связанные с творчеством в профессии, раскрывают в свободное время необычные таланты и редкие дары, готовые впечатлить мир."
 />
  <ArticlePreview
-        image="/img_2304.png" // пикча 
+        image={Image_URL+"/img_2304.png"}// пикча 
         bgColor="pink" // цвет фона всего блока pink yellow violet green black
         textColor="white" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
         title="«ИЗ ШКАФА В СТУДИЮ»: КАК ГОЛОСОВЫЕ НА ПРИКОЛЕ СТАЛИ НАЧАЛОМ МУЗЫКАЛЬНОГО ПУТИ" //лид статьи
@@ -25,7 +26,7 @@ export default function Home() {
         reverse={false} // Меняет порядок блоков на md+ true - текст слева картинка справа, false - наоборот
       />
       <ArticlePreview
-        image="/ame_1.png" // пикча 
+        image={Image_URL+"/ame_1.png"} // пикча 
         bgColor="black" // цвет фона всего блока
         textColor="pink" // цвет текста контент-части, тег и не должен меняться епрст!
         title="В ПОИСКАХ ИСКРЕННОСТИ: ПУТЕШЕСТВИЕ ФОТОГРАФА" //лид статьи

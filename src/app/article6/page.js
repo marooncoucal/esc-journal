@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-white overflow-x-hidden">
    <ArticleMainBlock
-  image="/ig_1.jpg" // пикча 
+  image={Image_URL+"/ig_1.jpg"} // пикча 
   bgColor="yellow"  // цвет фона всего блока pink yellow violet green black
   textColor="black" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
   title="ДВИЖЕНИЕ – ЭТО СВОБОДА" //лид статьи

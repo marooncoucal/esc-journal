@@ -93,7 +93,7 @@
 //       {cards.map((card, index) => (
 //         <Card
 //           key={index}
-//           image={card.image}
+//           image={Image_URL+card.image}
 //           title={card.title}
 //           description={card.description}
 //           tag={card.tag}
@@ -110,6 +110,7 @@
 
 import React from 'react';
 import Card from './Card';
+import { Image_URL } from '../imageURLdeploy';
 
 export default function CardGrid({ filterTag = null }) {
   const cards = [
@@ -211,7 +212,7 @@ export default function CardGrid({ filterTag = null }) {
   //     {filteredCards.map((card, index) => (
   //       <Card
   //         key={index}
-  //         image={card.image}
+  //         image={Image_URL+card.image}
   //         title={card.title}
   //         description={card.description}
   //         tag={card.tag}
@@ -228,7 +229,7 @@ export default function CardGrid({ filterTag = null }) {
     {filteredCards.map((card, index) => (
       <Card
         key={index}
-        image={card.image}
+        image={Image_URL+card.image}
         title={card.title}
         description={card.description}
         tag={card.tag}

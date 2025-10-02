@@ -2,6 +2,7 @@ import ArticlePreview from "./components/ArticlePreview";
 import CardGrid from "./components/CardGrid";
 import Footer from "./components/Footer";
 import MainBlock from "./components/MainBlock";
+import { Image_URL } from "./imageURLdeploy";
 
 
 export default function Home() {
@@ -9,12 +10,12 @@ export default function Home() {
     <div>
       
             <MainBlock
-       backgroundImage="/3840-2160-2.png"
+       backgroundImage={Image_URL+"/3840-2160-2.png"}
        title="НОСИМОЕ ИСКУССТВО И ЭСТЕТИКА БЕЗ ПРАВИЛ"
        description="Почему дизайн костюма на самом деле является синтезом изобразительности"
      />
       <ArticlePreview
-        image="/img_2304.png" // пикча 
+        image={Image_URL+"/img_2304.png"} // пикча 
         bgColor="pink" // цвет фона всего блока pink yellow violet green black
         textColor="white" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
         title="«ИЗ ШКАФА В СТУДИЮ»: КАК ГОЛОСОВЫЕ НА ПРИКОЛЕ СТАЛИ НАЧАЛОМ МУЗЫКАЛЬНОГО ПУТИ" //лид статьи
@@ -25,7 +26,7 @@ export default function Home() {
         reverse={false} // Меняет порядок блоков на md+ true - текст слева картинка справа, false - наоборот
       />
       <ArticlePreview
-        image="/1.1.png" // пикча 
+        image={Image_URL+"/1.1.png"} // пикча 
         bgColor="black" // цвет фона всего блока
         textColor="violet" // цвет текста контент-части, тег и не должен меняться епрст!
         title="ИСПЫТАНИЯ, КОТОРЫЕ ЗАКАЛЯЮТ ЧЕМПИОНОВ" //лид статьи

@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-white overflow-x-hidden">
       
 <ArticleMainBlock
-  image="/ameli_1.png" // пикча 
+  image={Image_URL+"/ameli_1.png"} // пикча 
   bgColor="green"  // цвет фона всего блока pink yellow violet green black
   textColor="black" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
   title="ТВОРЧЕСКИЙ КОВЧЕГ В МИРЕ ИСКУССТВА" //лид статьи

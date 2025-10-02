@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-white overflow-x-hidden">
       <ArticleMainBlock
-        image="/IMG_polina.png" // пикча 
+        image={Image_URL+"/IMG_polina.png"} // пикча 
         bgColor="pink"  // цвет фона всего блока pink yellow violet green black
         textColor="white" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
         title="СКОРОТЕЧНОСТЬ МОМЕНТА В ОБЪЕКТИВЕ" //лид статьи

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-white overflow-x-hidden">
       <ArticleMainBlock
-        image="/nas.png" // пикча 
+        image={Image_URL+"/nas.png"} // пикча 
         bgColor="yellow"  // цвет фона всего блока pink yellow violet green black
         textColor="black" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
         title="НОСИМОЕ ИСКУССТВО" //лид статьи

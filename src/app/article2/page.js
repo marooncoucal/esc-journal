@@ -9,7 +9,7 @@ export default function Home() {
       
      
             <ArticleMainBlock
-  image="/1.1.png" // пикча 
+  image={Image_URL+"/1.1.png"} // пикча 
   bgColor="violet"  // цвет фона всего блока pink yellow violet green black
   textColor="black" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
   title="ИСПЫТАНИЯ, КОТОРЫЕ ЗАКАЛЯЮТ ЧЕМПИОНОВ" //лид статьи

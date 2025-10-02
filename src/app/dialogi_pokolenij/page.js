@@ -1,17 +1,18 @@
 import ArticlePreview from "../components/ArticlePreview";
 import CardGrid from "../components/CardGrid";
 import MainPages from "../components/Main_Pages";
+import { Image_URL } from "../imageURLdeploy";
 
 export default function Home() {
   return (
     <div>
        <MainPages
-  backgroundImage="/dialogi_pokolenij.png"
+  backgroundImage={Image_URL+"/dialogi_pokolenij.png"}
   title="ДИАЛОГИ ПОКОЛЕНИЙ"
   description="Серия интервью о том, как преподаватели и студенты сопоставляют свои взгляды на одни и те же явления, выявляя удивительные расхождения восприятия поколений."
 />
  <ArticlePreview
-        image="/ameli_1.png" // пикча 
+        image={Image_URL+"/ameli_1.png"} // пикча 
         bgColor="green" // цвет фона всего блока
         textColor="black" // цвет текста контент-части, тег и не должен меняться епрст!
         title="ТВОРЧЕСКИЙ КОВЧЕГ В МИРЕ ИСКУССТВА" //лид статьи

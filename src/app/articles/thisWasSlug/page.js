@@ -10,7 +10,7 @@ export default function ArticlePage() {
   return (
     <div className="bg-white overflow-x-hidden text-black">
        <ArticleMainBlock
-        image="/img_2304.png" // пикча 
+        image={Image_URL+"/img_2304.png"} // пикча 
         bgColor="pink"  // цвет фона всего блока pink yellow violet green black
         textColor="white" // цвет текста контент-части, тег и не должен меняться епрст! pink yellow violet green black white
         title="«ИЗ ШКАФА В СТУДИЮ»: КАК ГОЛОСОВЫЕ НА ПРИКОЛЕ СТАЛИ НАЧАЛОМ МУЗЫКАЛЬНОГО ПУТИ" //лид статьи
