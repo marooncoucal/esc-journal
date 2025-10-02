@@ -1,5 +1,6 @@
 import ArticleMainBlock from "../components/ArticleMainBlock";
 import CardGrid from "../components/CardGrid";
+import { Image_URL } from "../imageURLdeploy";
 
 
 export default function Home() {
