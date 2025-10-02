@@ -1,4 +1,4 @@
-export const Image_URL = ""
+export const Image_URL = "/nextjs-github-pages/"
 
 // "/nextjs-github-pages/"
 // ""
