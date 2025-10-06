@@ -4,8 +4,6 @@ import MainPages from "../components/Main_Pages";
 import { Image_URL } from "../imageURLdeploy";
 
 
-
-
 export default function Home() {
   return (
     <div>

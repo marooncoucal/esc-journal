@@ -39,7 +39,6 @@ export default function Home() {
       <CardGrid></CardGrid>
       {/* <CardTest2></CardTest2> */}
       {/* <CardList></CardList> */}
-      <Footer></Footer>
     </div>
   );
 }
