@@ -22,7 +22,7 @@ export default function MainPages({ backgroundImage, title, description }) {
         {/* Кнопка фильтра — включить при необходимости */}
         {/* <div className="absolute bottom-5 right-5 w-[41px] h-[42px] bg-[#ff1468] flex items-center justify-center">
           <img
-            src="/faders-horizontal.svg"
+            src={Image_URL +"/faders-horizontal.svg"}
             alt="Filter icon"
             className="w-[33px] h-[33px]"
           />

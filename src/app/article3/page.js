@@ -46,7 +46,7 @@ export default function Home() {
   <div className="flex flex-col md:flex-row">
     <div className="w-full md:w-1/2 h-[300px] md:h-[721px] relative">
       <img
-        src="/ameli_3.png"
+        src={Image_URL + "/ameli_3.png"}
         alt="Фотография Амели"
         className="absolute inset-0 w-full h-full object-cover shadow-lg"
       />
@@ -65,7 +65,7 @@ export default function Home() {
     </div>
     <div className="w-full md:w-1/2 h-[300px] md:h-[400px] relative">
       <img
-        src="/ameli_4.png"
+        src={Image_URL + "/ameli_4.png"}
         alt="Фотография Амели"
         className="absolute inset-0 w-full h-full object-cover shadow-lg"
       />
@@ -76,7 +76,7 @@ export default function Home() {
   <div className="flex flex-col md:flex-row mt-0">
     <div className="w-full md:w-1/2 h-[300px] md:h-[721px] relative">
       <img
-        src="/ameli_5.png"
+        src={Image_URL +"/ameli_5.png"}
         alt="Фотография Амели"
         className="absolute inset-0 w-full h-full object-cover shadow-lg"
       />
@@ -97,7 +97,7 @@ export default function Home() {
     </div>
     <div className="w-full md:w-1/2 h-[300px] md:h-[713px] relative mt-0">
       <img
-        src="/ameli_6.png"
+        src={Image_URL +"/ameli_6.png"}
         alt="Фотография Амели"
         className="absolute inset-0 w-full h-full object-cover shadow-lg"
       />

@@ -3,6 +3,12 @@ import "./globals.css";
 
 import Header from "./components/Header";
 import HeaderSpacer from "./components/HeaderSpacer";
+import Footer from "./components/Footer";
+
+export const metadata = {
+  title: "ESC-журнал",
+  description: "ESC- медиа о жизни студентов",
+};
 
 // Подключаем локальные шрифты
 import {
@@ -12,7 +18,6 @@ import {
   LatoBold,
   LatoItalic,
 } from "./fonts/fonts";
-import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +28,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export const metadata = {
-  title: "ESC-журнал",
-  description: "ESC- медиа о жизни студентов",
-};
 
 export default function RootLayout({ children }) {
   return (
