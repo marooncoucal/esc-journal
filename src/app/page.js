@@ -22,7 +22,7 @@ export default function Home() {
         category="НЕРАСКРЫТЫЕ ТАЛАНТЫ" // рубрика
         authors="Авторы статьи Дарья Юркина и Софья Еремина" //авторы
         tagText="НОВОЕ" // текст тега
-        link="/articles/iz-shkafa-v-studiyu" //ссылка на статью
+        link="/article1" //ссылка на статью
         reverse={false} // Меняет порядок блоков на md+ true - текст слева картинка справа, false - наоборот
       />
       <ArticlePreview

@@ -11,7 +11,7 @@ export default function CardGrid({ filterTag = null }) {
       title: '«ИЗ ШКАФА В СТУДИЮ»: НАЧАЛО ПУТИ',
       description: 'НЕРАСКРЫТЫЕ ТАЛАНТЫ',
       tag: 'НОВОЕ',
-      link: '/articles/iz-shkafa-v-studiyu',
+      link: '/article1',
       blendMode: 'soft-light'
     },
     {
@@ -148,7 +148,7 @@ export default function CardGrid({ filterTag = null }) {
 //       title: '«ИЗ ШКАФА В СТУДИЮ»: НАЧАЛО ПУТИ',
 //       description: 'НЕРАСКРЫТЫЕ ТАЛАНТЫ',
 //       tag: 'НОВОЕ',
-//       link: '/articles/iz-shkafa-v-studiyu',
+//       link: '/articles1',
 //       blendMode: 'soft-light'
 //     },
 //     {
