@@ -30,7 +30,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="bg-transparent fixed top-0 left-0 w-full z-10">
+    <div className="bg-transparent fixed top-0 left-0 w-full z-[1000]">
       <div className="w-full h-20 bg-black flex items-center justify-between px-5">
         <Link href="/" passHref>
           <div className="cursor-pointer">

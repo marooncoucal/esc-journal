@@ -13,7 +13,9 @@ export default function Home() {
       {/* <div className={`yffra-ecto`}>НОСИМОЕ ИСКУССТВО И ЭСТЕТИКА БЕЗ ПРАВИЛ</div> */}
       {/* <div className={`font-${YffraEctoText}`}>НОСИМОЕ ИСКУССТВО И ЭСТЕТИКА БЕЗ ПРАВИЛ</div> */}
       <MainBlock
-        backgroundImage={Image_URL + "/3840-2160-2.png"}
+        isVideo={'yes'}
+        backgroundImage={"https://kinescope.io/embed/rMANhrNkKmtQcrT6Ku3Cv1"}
+        // backgroundImage={Image_URL + "/3840-2160-2.png"}
         title="НОСИМОЕ ИСКУССТВО И ЭСТЕТИКА БЕЗ ПРАВИЛ"
         description="Почему дизайн костюма на самом деле является синтезом изобразительности"
       />
