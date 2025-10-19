@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <div className="bg-[#1a1a1a] text-white py-10 flex flex-col items-center">
         {/* Логотип */}
-        <div className="mb-[20px] w-[400px]">
+        <div className="mb-[20px] w-[250px] md:w-[400px] overflow-hidden">
           <svg
             width="100%"
             height="auto"
