@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full overflow-hidden">
       <body
         className={`
           ${geistSans.variable}
