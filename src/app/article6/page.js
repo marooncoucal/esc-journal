@@ -59,7 +59,7 @@ export default function Home() {
 
         <Image
           className="mb-[82px] w-full"
-          src={Image_URL+"/ig_3.JPG"}
+          src={Image_URL+"/ig_3.jpg"}
           alt="Описание изображения"
           width={1920}
           height={720}
