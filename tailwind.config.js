@@ -30,6 +30,11 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         helvetica: ['Helvetica Neue', 'sans-serif'],
         heading: ['Heading Now Trial', 'sans-serif'],
+        
+        lato: ['Lato', 'sans-serif'],
+        yfEcto: ['YFFRARE-Ecto', 'sans-serif'],
+        yfHyper: ['YFFRARE-Hyper', 'sans-serif'],
+        yfGiga: ['YFFRARE-Giga', 'sans-serif'],
 
         // Подключённые локальные шрифты:
         menu: ['var(--font-yffra-hyper)', 'sans-serif'],        // YFFRARETRIAL-HyperMedium
