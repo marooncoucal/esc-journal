@@ -17,7 +17,7 @@ import {
   YffraEcto,
   LatoBold,
   LatoItalic,
-} from "./fonts/fonts";
+} from "../../public/fonts/fonts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,12 +42,13 @@ export default function RootLayout({ children }) {
           ${LatoBold.variable}
           ${LatoItalic.variable}
           antialiased bg-black
+          font-lato
         `}
       >
         <Header />
         <HeaderSpacer />
         {children}
-        <Footer></Footer>
+        <Footer/>
       </body>
     </html>
   );

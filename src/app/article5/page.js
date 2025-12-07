@@ -130,14 +130,14 @@ export default function Home() {
 
 <div className="bg-black pt-14">
    <div>
-         <h1 className="text-[#FF1468] mb-6 text-[32px] md:text-[65px] font-black leading-tight md:leading-[0.9] ml-4 md:ml-[24px]">
+         <h1 className="text-[#FF1468] font-yf-giga font-bold mb-6 text-[32px] md:text-[65px] leading-tight md:leading-[0.9] ml-4 md:ml-[24px]">
            ИЗ ЭТОЙ РУБРИКИ
            </h1>
      </div>
      <div className="bg-black"><CardGrid filterTag="ЖИЗНЬ ПОСЛЕ ДИПЛОМА" /></div>
                            
         <div>
-           <h1 className="text-[#FF1468] mt-24 mb-6 text-[32px] md:text-[65px] font-black leading-tight md:leading-[0.9] ml-4 md:ml-[24px]">
+           <h1 className="text-[#FF1468] font-yf-giga font-bold mb-6 mt-12 text-[32px] md:text-[65px] leading-tight md:leading-[0.9] ml-4 md:ml-[24px]">
            ЧИТАЙ ТАКЖЕ
            </h1>
          </div>

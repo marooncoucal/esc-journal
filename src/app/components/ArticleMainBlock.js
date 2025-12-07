@@ -61,11 +61,11 @@ export default function ArticleMainBlock({
   <div className={`flex flex-col gap-6 max-w-[690px] ${resolvedTextColor}`}>
     <div className={`text-sm uppercase ${resolvedTextColor}`}>{category}</div>
 
-    <p className={`text-[24px] font-bold md:text-[38px] lg:text-[48px] leading-tight ${resolvedTextColor}`}>
+    <p className={`font-yf-ecto font-bold text-[48px] leading-[49px] md:text-[75px] md:leading-[76px] ${resolvedTextColor}`}>
       {title}
     </p>
 
-    <p className={`text-base md:text-lg ${resolvedTextColor}`}>
+    <p className={`font-yf-giga font-normal text-[16px] md:text-[22px] ${resolvedTextColor}`}>
       {authors}
     </p>
   </div>

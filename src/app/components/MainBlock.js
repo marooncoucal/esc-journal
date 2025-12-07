@@ -30,8 +30,8 @@ export default function MainBlock({
           />
         )}
       </div>
-      <div className="TextCont relative z-10 pb-34 left-4 right-4 md:left-[61px] md:w-[674px] h-full flex flex-col justify-end items-start gap-[22px]">
-        <p className="font-medium text-white text-[32px] md:text-[50px] leading-tight">
+      <div className="TextCont relative z-10 pb-34 left-4 right-4 md:left-[61px] md:w-[674px] h-full flex flex-col justify-end items-start gap-[4px]">
+        <p className="font-yf-ecto font-medium text-white text-[48px] leading-[49px] md:text-[75px] md:leading-[76px]">
           {title}
         </p>
         <p className="text-white text-base md:text-lg leading-[21px]">

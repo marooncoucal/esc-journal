@@ -6,12 +6,12 @@ import { Image_URL } from "../imageURLdeploy";
 export default function Home() {
   return (
     <div>
-       <MainPages
-  backgroundImage={Image_URL+"/dialogi_pokolenij.png"}
-  title="ДИАЛОГИ ПОКОЛЕНИЙ"
-  description="Серия интервью о том, как преподаватели и студенты сопоставляют свои взгляды на одни и те же явления, выявляя удивительные расхождения восприятия поколений."
-/>
- <ArticlePreview
+      <MainPages
+        backgroundImage={Image_URL+"/dialogi_pokolenij.png"}
+        title="ДИАЛОГИ ПОКОЛЕНИЙ"
+        description="Серия интервью о том, как преподаватели и студенты сопоставляют свои взгляды на одни и те же явления, выявляя удивительные расхождения восприятия поколений."
+      />
+      <ArticlePreview
         image={Image_URL+"/ameli_1.png"} // пикча 
         bgColor="green" // цвет фона всего блока
         textColor="black" // цвет текста контент-части, тег и не должен меняться епрст!
@@ -22,7 +22,6 @@ export default function Home() {
         link="/article3" //ссылка на статью
         reverse={false} // Меняет порядок блоков на md+ true - текст слева картинка справа, false - наоборот
       />
-
       <CardGrid filterTag="ДИАЛОГИ ПОКОЛЕНИЙ" />
     </div>
   );

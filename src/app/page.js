@@ -2,7 +2,7 @@ import ArticlePreview from "./components/ArticlePreview";
 import CardGrid from "./components/CardGrid";
 import Footer from "./components/Footer";
 import MainBlock from "./components/MainBlock";
-import { YffraEcto } from "./fonts/fonts";
+import { YffraEcto } from "../../public/fonts/fonts";
 import { Image_URL } from "./imageURLdeploy";
 
 export default function Home() {

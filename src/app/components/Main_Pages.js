@@ -9,8 +9,8 @@ export default function MainPages({ backgroundImage, title, description }) {
         className="relative w-full h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <div className="absolute mb-24 left-4 right-4 md:left-[61px] md:w-[674px] bottom-10 flex flex-col items-start gap-[22px]">
-          <p className="font-medium text-white text-[32px] md:text-[50px] leading-tight">
+        <div className="absolute mb-24 left-4 right-4 md:left-[61px] md:w-[674px] bottom-10 flex flex-col items-start gap-[4px]">
+          <p className="font-yf-ecto font-medium text-white text-[48px] leading-[49px] md:text-[75px] md:leading-[76px]">
             {title}
           </p>
 

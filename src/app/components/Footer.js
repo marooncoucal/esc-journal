@@ -39,24 +39,26 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-20 mt-10 text-center">
           <div>
             <h3 className="font-semibold mb-2">Редакторы:</h3>
-            <p>Фамилия Имя Отчество</p>
-            <p>Фамилия Имя Отчество</p>
+            <p>Дарья Юркина</p>
+            <p>Софья Еремина</p>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Дизайнеры:</h3>
-            <p>Фамилия Имя Отчество</p>
-            <p>Фамилия Имя Отчество</p>
-            <p>Фамилия Имя Отчество</p>
+            <p>Алиса Татарникова</p>
+            <p>Матвей Мельников</p>
+            <p>Анна Втюрина</p>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Фотограф:</h3>
-            <p>Фамилия Имя Отчество</p>
+            <p>Даша</p>
           </div>
         </div>
 
-        {/* Кнопка и логотип снизу */}
+        
         <div className="flex flex-col items-center gap-8 mt-10">
-          <button className="flex items-center gap-5 bg-white text-black px-3 py-3 rounded hover:bg-gray-200">
+
+          {/* Кнопка тг */}
+          {/* <button className="flex items-center gap-5 bg-white text-black px-3 py-3 rounded hover:bg-gray-200">
             <svg
               width="29"
               height="24"
@@ -69,9 +71,10 @@ export default function Footer() {
                 fill="#1F1F1F"
               />
             </svg>
-
             <span>Наш тг канал</span>
-          </button>
+          </button> */}
+
+          {/* лого */}
           <svg
             width="163"
             height="69"

@@ -72,7 +72,7 @@ export default function ArticlePreview({
               {category}
             </div>
 
-            <p className="font-title text-[24px] md:text-[38px] lg:text-[48px] leading-tight">
+            <p className="font-title font-yf-ecto text-[48px] md:text-[75px] leading-tight">
               {title}
             </p>
 

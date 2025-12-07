@@ -30,7 +30,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="bg-transparent fixed top-0 left-0 w-full z-[1000]">
+    <div className="bg-transparent fixed top-0 left-0 w-full z-[1000] uppercase font-yf-hyper">
       <div className="w-full h-20 bg-black flex items-center justify-between px-5">
         <Link href="/" passHref>
           <div className="cursor-pointer">
@@ -44,14 +44,14 @@ export default function Header() {
         </Link>
 
         {!isMobile ? (
-          <div className="flex items-center gap-[62px] whitespace-nowrap">
+          <div className="flex items-center gap-[42px] whitespace-nowrap">
             {menuItems.map(({ label, href }, index) => {
               const isActive = pathname === href;
               return (
                 <Link href={href} key={index}>
                   <div
                     className={`font-menu text-[17px] leading-[25.5px] tracking-[-0.32px] transition-colors duration-300 cursor-pointer relative
-                      ${isActive ? 'text-[#FF1468] underline underline-offset-4' : 'text-white hover:text-[#FF1468]'}`}
+                      ${isActive ? 'text-[#FF1468] underline underline-offset-6' : 'text-white hover:text-[#FF1468]'}`}
                   >
                     {label}
                   </div>

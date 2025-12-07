@@ -53,11 +53,11 @@ export default function Card({
         </div>
 
         {/* Текстовый блок */}
-        <div className="p-4 space-y-2">
-          <p className={`text-white text-[13px] font-medium leading-snug transition-colors ${hoverColorClass}`}>
+        <div className="pt-4 pb-8 space-y-2">
+          <p className={`text-white font-yf-giga font-bold text-[18px] leading-[20px] sm:text-[24px] sm:leading-[26px] transition-colors ${hoverColorClass}`}>
             {title}
           </p>
-          <div className={`text-white text-[8px] font-medium transition-colors ${hoverColorClass}`}>
+          <div className={`text-white text-[10px] leading-[12px] sm:text-[12px] sm:leading-[14px] font-semibold transition-colors ${hoverColorClass}`}>
             {description}
           </div>
         </div>
