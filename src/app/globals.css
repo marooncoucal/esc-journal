@@ -5,9 +5,9 @@
 
 @theme {
   --font-lato: "Lato", "serif";
-  --font-yf-ecto: "YFFRARE-Ecto", "serif";
-  --font-yf-hyper: "YFFRARE-Hyper", "serif";
-  --font-yf-giga: "YFFRARE-Giga", "serif";
+  --font-yf-ecto: "YFFRARE-Ecto", "san-serif";
+  --font-yf-hyper: "YFFRARE-Hyper", "sans-serif";
+  --font-yf-giga: "YFFRARE-Giga", "sans-serif";
 }
 
 html, body {
