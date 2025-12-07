@@ -4,8 +4,8 @@
 @tailwind utilities;
 
 @theme {
-  --font-lato: "Lato", "serif";
-  --font-yf-ecto: "YFFRARE-Ecto", "san-serif";
+  --font-lato: "Lato", "sans-serif";
+  --font-yf-ecto: "YFFRARE-Ecto", "sans-serif";
   --font-yf-hyper: "YFFRARE-Hyper", "sans-serif";
   --font-yf-giga: "YFFRARE-Giga", "sans-serif";
 }
