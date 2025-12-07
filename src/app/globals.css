@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 @theme {
-  --font-lato: "Lato", "sans-serif";
-  --font-yf-ecto: "YFFRARE-Ecto", "sans-serif";
-  --font-yf-hyper: "YFFRARE-Hyper", "sans-serif";
-  --font-yf-giga: "YFFRARE-Giga", "sans-serif";
+  --font-lato: "Lato", sans-serif;
+  --font-yf-ecto: "YFFRARE-Ecto", sans-serif;
+  --font-yf-hyper: "YFFRARE-Hyper", sans-serif;
+  --font-yf-giga: "YFFRARE-Giga", sans-serif;
 }
 
 html, body {
